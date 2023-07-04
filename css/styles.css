@@ -462,12 +462,11 @@ img {
     margin-left: 120px;
 }
 
-.nav_menu:hover::after,
-.nav_menu:focus::after {
+.nav_menu:hover::after {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
-    background-color: #404BBF;
+    color: #404BBF;
     content: '';
     height: 4px;
     display: block;
