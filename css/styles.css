@@ -102,6 +102,7 @@ img {
     line-height: 1.5;
     padding: 24px 0;
     position: relative;
+    color: #404bbf;
 }
 
 .nav_menu:hover {
@@ -477,6 +478,7 @@ img {
 
 .nav_item {
     position: relative;
+
 }
 
 .backdrop {
