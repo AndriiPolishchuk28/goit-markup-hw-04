@@ -468,12 +468,12 @@ img {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     width: 100%;
     background-color: #404BBF;
-    content: "";
+    content: '';
     height: 4px;
     display: block;
     width: 100%;
     position: absolute;
-    bottom: -24px;
+    bottom: -1px;
 }
 
 .nav_item {
