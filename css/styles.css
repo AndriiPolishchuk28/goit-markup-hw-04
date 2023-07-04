@@ -463,11 +463,11 @@ img {
     margin-left: 120px;
 }
 
-.nav_menu::after {
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    width: 100%;
-    color: #404BBF;
+.nav_menu:hover::after {
+    width: 0%;
+    background-color: #404BBF;
+    border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     content: '';
     height: 4px;
     display: block;
