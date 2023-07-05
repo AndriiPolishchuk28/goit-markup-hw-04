@@ -436,9 +436,7 @@ img {
 }
 
 .link_company:hover .icon_company {
-    fill: #404BBF;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    fill: currentColor;
 }
 
 .social_text {
