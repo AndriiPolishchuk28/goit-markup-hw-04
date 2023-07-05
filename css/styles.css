@@ -397,6 +397,7 @@ img {
 }
 
 .customers_title {
+    color: var(--main-color);
     font-size: 36px;
     font-weight: 700;
     line-height: 40px;
@@ -404,6 +405,7 @@ img {
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
+    line-height: 1.11;
 }
 
 .link_company {
@@ -415,6 +417,7 @@ img {
     justify-content: center;
     align-items: center;
     color: #8E8F99;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .icon_company {
@@ -428,9 +431,8 @@ img {
 
 .link_company:hover,
 .link_company:focus {
+    color: #404bbf; 
     border-color: #404BBF;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link_company:hover .icon_company {
