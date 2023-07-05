@@ -435,7 +435,7 @@ img {
     border-color: #404BBF;
 }
 
-.link_company:hover .icon_company {
+.icon_company {
     fill: currentColor;
 }
 
@@ -457,8 +457,8 @@ img {
     display: flex;
 }
 
-.social_footer_wrapper {
-    margin-left: 120px;
+.logo_footer_wrapper {
+    margin-right: 120px;
 }
 
 .nav_menu::after {
