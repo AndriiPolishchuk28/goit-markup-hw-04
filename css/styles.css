@@ -95,6 +95,7 @@ img {
 }
 
 .nav_menu {
+    color: #404bbf;
     color: var(--main-color);
     font-size: 16px;
     font-weight: 500;
