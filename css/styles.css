@@ -485,7 +485,7 @@ img {
     bottom: -1px;
 }
 
-.nav_menu:hover::after {
+.active_link::after {
     width: 100%;
 }
 
